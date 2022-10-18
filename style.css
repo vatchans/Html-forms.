@@ -1,0 +1,96 @@
+.container{
+    height: 900px;
+    width:100%;
+    display: flex;
+    flex-wrap:nowrap;
+    margin: 0px;
+    margin-top:40px;
+    
+}
+body{
+    background-color: #b1afd6;
+}
+.formsubmission{
+    width:400px;
+    height:850px ;
+    
+    
+}
+.table{
+width:1000px;
+height:470px;
+margin-top:2px;
+}
+#title{
+visibility: hidden;
+}
+
+h1{
+    text-align: center;
+    font-family: Rockwell Extra Bold;
+}
+.form-action-buttons{
+    padding-left:20%;
+}
+label{
+    padding-left:10px;
+    font-family: Bahnschrift;
+}
+#food{
+    padding-left:10px ;
+}
+#btn{
+    font-family: Bahnschrift;
+    margin-left:10px;
+    height:40px ;
+    width:190px;
+    background-color: blue;
+    text-shadow: 10vw;
+    color:white ;
+    border-radius:14px ;
+}
+#formlist{
+    margin-top:20px;
+    visibility: hidden;
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+  }
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+   background-color:rgba(30,144,255);
+   color:  	#F5FFFA;
+}
+td{
+   background-color:	#DCDCDC;
+}
+#clearbtn{
+    font-family:Calisto MT;
+    height:35px ;
+    margin-left:90%;
+    width:70px;
+    background-color: red;
+    text-shadow: 10vw;
+    color:white ;
+    border-radius:8px;
+    visibility: hidden;
+}
+.input-icons i {
+    position: absolute;
+    margin: 6px 4px;
+    width: 20px;;
+}
+.input-icons {
+    margin-bottom: 10px;
+}
+.icon {
+    margin-top: 4px;
+    min-width: 20px;
+}
+.input-field {
+    text-align:center;
+}

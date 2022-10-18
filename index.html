@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Table/style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="formsubmission">
+      <h1>Form Submission</h1>
+          <div>
+              <label>First Name</label><br>
+              <input class="input-field" type="text" name="FirstName" id="FirstName">
+          </div>
+          <br>
+          <div>
+              <label>Last Name</label><br>
+              <input class="input-field" type="text" name="lastname" id="lastName">
+          </div>
+          <br>
+          <div class="input-icons">
+              <label>Address</label><br>
+              <i class="fa-solid fa-location-dot"></i>
+              <input class="input-field" type="text" name="Address" id="Address">
+          </div>
+          <br>
+          <div class="input-icons">
+              <label>Pincode</label><br>
+              <i class="fa-solid fa-location-arrow"></i>
+              <input class="input-field"type="number" name="Pincode" id="Pincode">
+          </div>
+          <br>
+        <div>
+          <label>Gender:</label><br>
+          <label for="male">Male</label>
+          <input type="radio" name="Gender" id="male" value="Male">
+          <label for="Female">Female</label>
+          <input type="radio" name="Gender" id="Female" value="Female">
+          <br>
+      </div>
+      <div>
+        <label for="food">Choice of Food<span style="font-family:Courier;">(must choose at least 2 out of 5 options)</span></label>
+        <br><br>
+        <input style=" margin-left:20px ;"type="checkbox" name="food" id="food"value="South Indian"><span id="food">South Indian</span>
+        <br>
+        <input style=" margin-left:20px ;" type="checkbox" name="food" id="food"value="North Indian"><span id="food">North Indian</span>
+        <br>
+        <input style=" margin-left:20px ;" type="checkbox" name="food" id="food"value="Chinese"><span id="food">Chinese</span>
+        <br>
+        <input style="margin-left:20px ;" type="checkbox" name="food" id="food"value="Italain"><span id="food">Italain</span>
+        <br>
+        <input style="margin-left:20px ;" type="checkbox" name="food" id="food"value="Arabian food"><span id="food">Arabian food</span>
+    </div>
+    <br>
+      <div class="input-icons">
+        <label>State</label><br>
+        <i class="fa-solid fa-map-pin"></i>
+        <input class="input-field"  type="text" name="State" id="State">
+        <br>
+    </div>
+    <br>
+    <div class="input-icons">
+      <label>Country</label><br>
+      <i class="fa-solid fa-earth-americas"></i>
+      <input class="input-field"type="text" name="Country" id="Country">
+  </div>
+  <br>
+          <div>
+            <button id="btn">Submit</button>
+          </div>
+    </div>
+      <div class="table">
+        <h1  id="title" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Database Table</h1>
+        <button id="clearbtn" onclick='location.reload()'>Remove</button>   
+     <table  id="formlist">
+            <thead>
+              <tr>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Pincode</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Food</th>
+                <th scope="col">State</th>
+                <th scope="col">Country</th>
+              </tr>
+            </thead>
+          </table>   
+    </div>
+    </div>
+<script src="/Table/script.js"></script>
+</body>
+</html>
